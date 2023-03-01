@@ -12,3 +12,13 @@
     flex-wrap: wrap;
     gap: 50px;
 }
+
+@media screen and (max-width: 1063px) {
+    .each-event{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+  }
