@@ -1,0 +1,38 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    height: 600px;
+    background-color: black;
+    color: white;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+.event-img{
+    width: 400px;
+    height: 300px;
+    border-bottom: 1px solid white;
+}
+
+.event-name{
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 25px;
+}
+
+.event-description{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+        line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}
+
+
+

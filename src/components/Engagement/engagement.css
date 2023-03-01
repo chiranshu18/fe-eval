@@ -1,0 +1,45 @@
+.status{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.status-data{
+    display: flex;
+    gap: 5px;
+    padding-left: 20px;
+    color: green;
+}
+
+.is-bookmarked{
+    padding-right: 20px;
+    font-size: 35px;
+}
+
+.is-bookmarked .icon{
+    color: orange;
+}
+
+.is-bookmarked .icon2{
+    cursor: pointer;
+    color: gray;
+}
+
+.status-data2{
+    display: flex;
+    gap: 5px;
+    padding-left: 20px;
+    color: yellow;
+}
+
+.status-data3{
+    display: flex;
+    visibility: hidden;
+    gap: 5px;
+    padding-left: 20px;
+}

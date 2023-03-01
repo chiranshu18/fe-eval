@@ -1,0 +1,13 @@
+.header{
+    background-color: black;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header-text{
+    font-size: 70px;
+    color: white;
+    font-family: 'Big Shoulders Inline Display', cursive;
+}
